@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="CLEAN FRONT" />
-    <option name="defaultScopeName" value="CLEAN FRONT" />
+    <option name="customScope" value="Project 'cf-web'" />
+    <option name="defaultScopeName" value="Project 'cf-web'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="CLEAN FRONT" />
+    <option name="SEARCH_SCOPE" value="Project 'cf-web'" />
   </component>
 </application>
