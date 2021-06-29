@@ -1,0 +1,5 @@
+<templateSet group="TSReact">
+  <template name="ss" value="this.setState({&#10;  $END$&#10;});" description="setState" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
