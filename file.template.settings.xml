@@ -1,7 +1,0 @@
-<application>
-  <component name="ExportableFileTemplateSettings">
-    <includes_templates>
-      <template name="react jsx.jsx" file-name="react jsx" reformat="true" live-template-enabled="false" />
-    </includes_templates>
-  </component>
-</application>
