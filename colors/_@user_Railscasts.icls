@@ -3,7 +3,7 @@
     <property name="created">2020-11-19T18:12:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2021-07-23T21:44:29</property>
+    <property name="modified">2021-07-23T23:51:18</property>
     <property name="originalScheme">Railscasts</property>
   </metaInfo>
   <colors>
@@ -925,7 +925,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="" />
     <option name="JS.PARAMETER">
       <value>
         <option name="EFFECT_COLOR" value="e6e1dc" />
