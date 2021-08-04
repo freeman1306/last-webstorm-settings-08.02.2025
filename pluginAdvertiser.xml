@@ -12,6 +12,11 @@
                       <FeaturePluginData displayName="CommandLineLauncher" pluginName="Command Line Launcher" pluginId="org.yapal.world.commandlinelauncher" />
                     </value>
                   </entry>
+                  <entry key="CargoCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Cargo" pluginName="Rust" pluginId="org.rust.lang" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
@@ -30,6 +35,11 @@
                   <entry key="DBNStatementRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="DB Statement" pluginName="Database Navigator" pluginId="DBN" />
+                    </value>
+                  </entry>
+                  <entry key="DenoConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Deno" pluginName="Deno" pluginId="deno" />
                     </value>
                   </entry>
                   <entry key="FirefoxRemoteDebugType">
@@ -67,6 +77,16 @@
                       <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="JsTestDriver-test-runner">
+                    <value>
+                      <FeaturePluginData displayName="JsTestDriver" pluginName="JSTestDriver Plugin" pluginId="JSTestDriver Plugin" />
+                    </value>
+                  </entry>
+                  <entry key="MatlabApplication">
+                    <value>
+                      <FeaturePluginData displayName="Matlab" pluginName="Matlab Support" pluginId="MatlabSupport" />
+                    </value>
+                  </entry>
                   <entry key="NodeJSConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Node.js" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
@@ -90,6 +110,11 @@
                   <entry key="TailRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Tail" pluginName="Grep Console" pluginId="GrepConsole" />
+                    </value>
+                  </entry>
+                  <entry key="WasmPackCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="wasm-pack" pluginName="Rust" pluginId="org.rust.lang" />
                     </value>
                   </entry>
                   <entry key="XSLT">
