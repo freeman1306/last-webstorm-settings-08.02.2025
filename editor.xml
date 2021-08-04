@@ -12,7 +12,7 @@
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:PREVIEW" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc;*.ts;*.tsx;*.js;*.jsx;" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
