@@ -1,10 +1,10 @@
 <scheme name="_@user_GapStyle 3.1" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-08-12T16:53:43</property>
+    <property name="created">2021-08-04T21:00:48</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2021.2.0.0</property>
-    <property name="modified">2021-08-12T16:56:02</property>
+    <property name="ideVersion">2021.1.3.0.0</property>
+    <property name="modified">2021-08-08T14:55:48</property>
     <property name="originalScheme">GapStyle 3.1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1697,11 +1697,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="LESS_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
     <option name="LESS_FUNCTION">
       <value>
         <option name="FOREGROUND" value="f92675" />
@@ -1930,11 +1925,6 @@
         <option name="FOREGROUND" value="f96b9d" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="MARKDOWN_CODE_SPAN">
-      <value>
-        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
@@ -3275,12 +3265,6 @@
     <option name="TS.CLASS">
       <value>
         <option name="FOREGROUND" value="66d9ee" />
-      </value>
-    </option>
-    <option name="TS.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="629755" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.DOC_MARKUP">

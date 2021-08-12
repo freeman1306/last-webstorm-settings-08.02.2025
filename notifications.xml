@@ -1,0 +1,7 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId=".ignore" displayType="NONE" shouldLog="false" />
+    <notification groupId="Material Theme Notifications" displayType="NONE" />
+    <notification groupId="Plugins updates" displayType="NONE" />
+  </component>
+</application>
