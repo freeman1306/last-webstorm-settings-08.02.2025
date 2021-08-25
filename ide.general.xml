@@ -13,11 +13,22 @@
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
     <entry key="async.project.view.collapse.tree.path.recursively" value="false" />
     <entry key="ide.tree.collapse.recursively" value="false" />
+    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="Memory" value="true" />
+        <entry key="AwsSettingsPanel" value="false" />
+        <entry key="CodeStream.StatusBar" value="false" />
+        <entry key="CwmWireStatsWidgetFactory" value="false" />
+        <entry key="DBNavigator.Project.DatasetEditorStatusBarWidgetFactory" value="false" />
+        <entry key="Encoding" value="false" />
+        <entry key="LineSeparator" value="false" />
+        <entry key="Position" value="false" />
+        <entry key="ReadOnlyAttribute" value="false" />
+        <entry key="com.codota.intellij.common.notifier.CodotaStatusWidget" value="false" />
+        <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
+        <entry key="com.tabnine.statusBar.StatusBarPromotionWidget" value="false" />
         <entry key="mtStatusBar" value="false" />
       </map>
     </option>
