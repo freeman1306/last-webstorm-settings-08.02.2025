@@ -3,5 +3,6 @@
     <option name="macUUID" value="caa6103e-19eb-4bfc-8cef-01bc023f0d49" />
     <option name="longNum" value="Auto" />
     <option name="performance" value="200" />
+    <option name="typoRepair" value="false" />
   </component>
 </application>
