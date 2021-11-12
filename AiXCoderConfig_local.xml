@@ -1,5 +1,6 @@
 <application>
   <component name="ConfigState">
+    <option name="enabled" value="false" />
     <option name="macUUID" value="caa6103e-19eb-4bfc-8cef-01bc023f0d49" />
     <option name="longNum" value="Auto" />
     <option name="selectItem" value="Auto" />
