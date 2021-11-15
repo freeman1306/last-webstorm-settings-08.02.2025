@@ -43,6 +43,7 @@
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </JSCodeStyleSettings>
   <Properties>
+    <option name="SPACES_AROUND_KEY_VALUE_DELIMITER" value="true" />
     <option name="KEEP_BLANK_LINES" value="true" />
   </Properties>
   <ScssCodeStyleSettings>
@@ -1065,6 +1066,7 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
+    <option name="BLOCK_COMMENT_ADD_SPACE" value="true" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
