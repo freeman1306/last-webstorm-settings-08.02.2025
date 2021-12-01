@@ -1,7 +1,10 @@
 <application>
   <component name="DBNavigator.Application.Settings">
-    <enable-debug-mode value="false" />
-    <enable-developer-mode value="false" />
+    <developer-mode value="false" />
+    <parser-debug-mode value="false" />
+    <database-access-debug-mode value="false" />
+    <database-resource-debug-mode value="false" />
+    <database-lagging-mode value="false" />
     <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="DBNavigator.DefaultProject.Settings">
@@ -125,7 +128,6 @@
       <qualified-text-editor text-length-threshold="300">
         <content-types>
           <content-type name="Text" enabled="true" />
-          <content-type name="Properties" enabled="true" />
           <content-type name="XML" enabled="true" />
           <content-type name="DTD" enabled="true" />
           <content-type name="HTML" enabled="true" />
