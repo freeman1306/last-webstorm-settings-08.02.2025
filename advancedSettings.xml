@@ -7,6 +7,7 @@
         <entry key="ide.show.fileType.icon.in.titleBar" value="true" />
         <entry key="ide.tree.collapse.recursively" value="false" />
         <entry key="show.diff.as.editor.tab" value="false" />
+        <entry key="vcs.annotations.preload" value="true" />
       </map>
     </option>
   </component>
