@@ -4,7 +4,7 @@
     <property name="created">2020-11-19T18:12:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2022-02-24T12:32:24</property>
+    <property name="modified">2022-05-22T23:21:58</property>
     <property name="originalScheme">Material Solarized Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -286,7 +286,7 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="" />
     <option name="COFFEESCRIPT.IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="657b83" />
@@ -1257,22 +1257,32 @@
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="fdf7cf" />
+        <option name="BACKGROUND" value="f2eee4" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="eef7d7" />
+        <option name="BACKGROUND" value="eff4e1" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="fde8e6" />
+        <option name="BACKGROUND" value="f8f5de" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="e8f5e4" />
+        <option name="BACKGROUND" value="fdf0dc" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="fde9d9" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="fde4d6" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">

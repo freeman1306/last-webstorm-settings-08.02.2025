@@ -1,11 +1,11 @@
-<scheme name="_@user_GapStyle 4.0" version="142" parent_scheme="Darcula">
+<scheme name="_@user_GapStyle 4.1" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-11-01T16:31:06</property>
+    <property name="created">2022-05-22T23:19:29</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2021.3.0.0</property>
+    <property name="ideVersion">2022.1.1.0.0</property>
     <property name="modified">2022-05-22T23:21:58</property>
-    <property name="originalScheme">GapStyle 4.0</property>
+    <property name="originalScheme">GapStyle 4.1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
@@ -772,13 +772,15 @@
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="cbad96" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_PARAMETER">
       <value>
         <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -1001,6 +1003,25 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="ELIXIR_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ELIXIR_MACRO_CALL">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="ELIXIR_MODULE_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="bbb529" />
+      </value>
+    </option>
     <option name="ELIXIR_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
@@ -1018,6 +1039,8 @@
     </option>
     <option name="ELIXIR_PREDEFINED">
       <value>
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1036,6 +1059,9 @@
       <value>
         <option name="FOREGROUND" value="e6db74" />
       </value>
+    </option>
+    <option name="ELIXIR_TYPE">
+      <value />
     </option>
     <option name="ELIXIR_TYPE_PARAMETER">
       <value>
@@ -1059,7 +1085,8 @@
     </option>
     <option name="ERL_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="bbb529" />
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ERL_BUILT_IN_TYPE">
@@ -2448,7 +2475,9 @@
       </value>
     </option>
     <option name="OC.CONDITIONALLY_NOT_COMPILED">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="686a4e" />
+      </value>
     </option>
     <option name="OC.CPP_KEYWORD">
       <value>
@@ -2529,7 +2558,7 @@
     </option>
     <option name="OC.MESSAGE_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="a6e22e" />
+        <option name="FOREGROUND" value="9cda3e" />
       </value>
     </option>
     <option name="OC.METHOD_DECLARATION">
@@ -2588,7 +2617,7 @@
     </option>
     <option name="OC.STRUCT_LIKE">
       <value>
-        <option name="FOREGROUND" value="cfd3" />
+        <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
     <option name="OC.TEMPLATE_TYPE">
@@ -2737,7 +2766,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="a6e22f" />
+        <option name="FOREGROUND" value="4186f9" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -2887,13 +2916,15 @@
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cbad96" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="REGEXP.CHARACTER">
@@ -3223,7 +3254,8 @@
     <option name="ReSharper.FSHARP_MUTABLE_FUNCTION_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.FSHARP_STATIC_CLASS_IDENTIFIER">
