@@ -3,15 +3,15 @@
     <extensionMap>
       <mapping pattern="placeholder" type="AUTO_DETECTED" />
       <mapping pattern=".jsinspectrc" type="JSON" />
+      <mapping ext="lgt" type="Logtalk resource" />
+      <mapping ext="pl" type="Prolog resource" />
+      <mapping ext=".tabnine.model" type="Tabnine project model file" />
+      <mapping ext=".tabnine" type="Tabnine project model file" />
+      <mapping ext=".model" type="Tabnine project model file" />
+      <mapping ext="tabnine" type="Tabnine project model file" />
+      <mapping ext="model" type="Tabnine project model file" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <mapping ext=".model" type="Tabnine project model file" />
-      <mapping ext=".tabnine" type="Tabnine project model file" />
-      <mapping ext=".tabnine.model" type="Tabnine project model file" />
-      <mapping ext="lgt" type="Logtalk resource" />
-      <mapping ext="model" type="Tabnine project model file" />
-      <mapping ext="pl" type="Prolog resource" />
-      <mapping ext="tabnine" type="Tabnine project model file" />
     </extensionMap>
   </component>
 </application>
