@@ -4,7 +4,7 @@
     <property name="created">2021-04-13T14:56:24</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2022-05-25T21:24:36</property>
+    <property name="modified">2022-02-24T12:32:23</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -1161,12 +1161,12 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="36404d" />
+        <option name="BACKGROUND" value="2d3633" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="34444b" />
+        <option name="BACKGROUND" value="243637" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_DERIVED">
@@ -1176,7 +1176,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="3a4549" />
+        <option name="BACKGROUND" value="2d2d40" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_DERIVED">
@@ -1186,17 +1186,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="3f4247" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_5">
-      <value>
-        <option name="BACKGROUND" value="3f3c45" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_6">
-      <value>
-        <option name="BACKGROUND" value="3f3843" />
+        <option name="BACKGROUND" value="21353f" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
@@ -3046,10 +3036,10 @@
         <option name="FOREGROUND" value="eeffe3" />
       </value>
     </option>
-    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
-    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="PROPERTIES.KEY" baseAttributes="" />
+    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
+    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598" />
