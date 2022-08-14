@@ -30,4 +30,11 @@
       </map>
     </option>
   </component>
+  <component name="resources">
+    <option name="selected">
+      <list>
+        <option value="AWS::ACMPCA::CertificateAuthority" />
+      </list>
+    </option>
+  </component>
 </application>
