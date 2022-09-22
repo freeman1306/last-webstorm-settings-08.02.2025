@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="placeholder" type="AUTO_DETECTED" />
-      <removed_mapping ext="es" type="ActionScript" />
-      <mapping ext="es" type="Elasticsearch" />
       <mapping pattern=".jsinspectrc" type="JSON" />
       <mapping ext="lgt" type="Logtalk resource" />
       <mapping ext="pl" type="Prolog resource" />
@@ -57,6 +55,7 @@
       <mapping ext="portal" type="XML" />
       <mapping ext="cachepartition" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="es" approved="true" type="ActionScript" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="tab" approved="true" type="XML" />
     </extensionMap>
