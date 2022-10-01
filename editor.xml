@@ -58,7 +58,7 @@
     <option name="COLON_MOVE_OUTSIDE_QUOTES" value="true" />
     <option name="COMMA_MOVE_OUTSIDE_QUOTES" value="true" />
   </component>
-  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" updateFilesToCompile="true" />
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
