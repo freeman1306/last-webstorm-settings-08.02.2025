@@ -3,6 +3,7 @@
     <option name="signinNotificationShown" value="true" />
     <disabledLanguages>
       <option value="HTML" />
+      <option value="SCSS" />
     </disabledLanguages>
   </component>
 </application>
