@@ -1,10 +1,5 @@
 <application>
   <component name="GitToolBoxAppSettings2">
-    <option name="outdatedBranchesAutoCleanup">
-      <OutdatedBranchesAutoCleanupConfig>
-        <option name="autoCheckEnabled" value="true" />
-      </OutdatedBranchesAutoCleanupConfig>
-    </option>
     <option name="version" value="5" />
   </component>
 </application>
