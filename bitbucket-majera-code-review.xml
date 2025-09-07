@@ -1,7 +1,21 @@
 <application>
   <component name="BitbucketMajeraCodeReviewApplicationSettings">
     <recentServers>
-      <list />
+      <list>
+        <RecentlyUsedServerBean>
+          <option name="repositories">
+            <list>
+              <RecentlyUsedRepositoryBean>
+                <option name="name" value="webstorm_settings" />
+                <option name="timestamp" value="1757248278975" />
+                <option name="workspace" value="oleg1306" />
+              </RecentlyUsedRepositoryBean>
+            </list>
+          </option>
+          <option name="serviceId" value="bitbucket-cloud" />
+          <option name="url" value="https://bitbucket.org" />
+        </RecentlyUsedServerBean>
+      </list>
     </recentServers>
     <recentPullRequestParticipants>
       <list />
