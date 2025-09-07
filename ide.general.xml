@@ -15,7 +15,6 @@
     <entry key="async.project.view.collapse.tree.path.recursively" value="false" source="SYSTEM" />
     <entry key="ide.tree.collapse.recursively" value="false" source="SYSTEM" />
     <entry key="debugger.mayBringFrameToFrontOnBreakpoint" value="false" source="SYSTEM" />
-    <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
   </component>
   <component name="StatusBar">
     <option name="widgets">

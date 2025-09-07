@@ -1,0 +1,14 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="documentation.components.enable.highlighting.of.links" value="true" />
+        <entry key="documentation.components.enable.inline.code.highlighting" value="true" />
+        <entry key="ide.show.fileType.icon.in.titleBar" value="true" />
+        <entry key="ide.tree.collapse.recursively" value="false" />
+        <entry key="show.diff.as.editor.tab" value="false" />
+        <entry key="vcs.annotations.preload" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
