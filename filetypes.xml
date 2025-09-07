@@ -1,62 +1,70 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="placeholder" type="AUTO_DETECTED" />
       <mapping pattern=".jsinspectrc" type="JSON" />
-      <mapping ext="lgt" type="Logtalk resource" />
-      <mapping ext="pl" type="Prolog resource" />
-      <mapping ext="communitythemedefinition" type="XML" />
-      <mapping ext="translation" type="XML" />
+      <mapping ext="connectedapp" type="XML" />
+      <mapping ext="profile" type="XML" />
+      <mapping ext="community" type="XML" />
+      <mapping ext="labels" type="XML" />
+      <mapping ext="installedpackage" type="XML" />
+      <mapping ext="datasource" type="XML" />
+      <mapping ext="object" type="XML" />
+      <mapping ext="role" type="XML" />
+      <mapping ext="globalvalueset" type="XML" />
       <mapping ext="objecttranslation" type="XML" />
-      <mapping ext="settings" type="XML" />
-      <mapping ext="group" type="XML" />
+      <mapping ext="communitythemedefinition" type="XML" />
+      <mapping ext="quickaction" type="XML" />
+      <mapping ext="flowdefinition" type="XML" />
+      <mapping ext="remotesite" type="XML" />
+      <mapping ext="permissionset" type="XML" />
+      <mapping ext="homepagelayout" type="XML" />
+      <mapping ext="communitytemplatedefinition" type="XML" />
+      <mapping ext="globalvaluesettranslation" type="XML" />
+      <mapping ext="layout" type="XML" />
+      <mapping ext="translation" type="XML" />
+      <mapping ext="posttemplate" type="XML" />
+      <mapping ext="sharingset" type="XML" />
+      <mapping ext="cachepartition" type="XML" />
+      <mapping ext="callcenter" type="XML" />
+      <mapping ext="sharingrules" type="XML" />
+      <mapping ext="portal" type="XML" />
+      <mapping ext="flow" type="XML" />
+      <mapping ext="assignmentrules" type="XML" />
+      <mapping ext="custompermission" type="XML" />
+      <mapping ext="reporttype" type="XML" />
+      <mapping ext="testsuite" type="XML" />
+      <mapping ext="site" type="XML" />
+      <mapping ext="report" type="XML" />
       <mapping ext="queue" type="XML" />
       <mapping ext="homepagecomponent" type="XML" />
-      <mapping ext="communitytemplatedefinition" type="XML" />
-      <mapping ext="workflow" type="XML" />
-      <mapping ext="report" type="XML" />
-      <mapping ext="permissionset" type="XML" />
-      <mapping ext="role" type="XML" />
-      <mapping ext="site" type="XML" />
-      <mapping ext="flexipage" type="XML" />
-      <mapping ext="assignmentrules" type="XML" />
-      <mapping ext="remotesite" type="XML" />
-      <mapping ext="layout" type="XML" />
-      <mapping ext="object" type="XML" />
-      <mapping ext="globalvaluesettranslation" type="XML" />
-      <mapping ext="globalvalueset" type="XML" />
-      <mapping ext="network" type="XML" />
-      <mapping ext="community" type="XML" />
-      <mapping ext="callcenter" type="XML" />
-      <mapping ext="approvalprocess" type="XML" />
       <mapping ext="permissionsetgroup" type="XML" />
-      <mapping ext="quickaction" type="XML" />
-      <mapping ext="sharingset" type="XML" />
-      <mapping ext="homepagelayout" type="XML" />
+      <mapping ext="group" type="XML" />
+      <mapping ext="settings" type="XML" />
+      <mapping ext="workflow" type="XML" />
       <mapping ext="standardvalueset" type="XML" />
-      <mapping ext="connectedapp" type="XML" />
-      <mapping ext="posttemplate" type="XML" />
-      <mapping ext="reporttype" type="XML" />
-      <mapping ext="flowdefinition" type="XML" />
-      <mapping ext="custompermission" type="XML" />
-      <mapping ext="sharingrules" type="XML" />
-      <mapping ext="labels" type="XML" />
+      <mapping ext="flexipage" type="XML" />
+      <mapping ext="network" type="XML" />
       <mapping ext="design" type="XML" />
-      <mapping ext="datasource" type="XML" />
-      <mapping ext="installedpackage" type="XML" />
-      <mapping ext="testsuite" type="XML" />
-      <mapping ext="profile" type="XML" />
-      <mapping ext="flow" type="XML" />
-      <mapping ext="portal" type="XML" />
-      <mapping ext="cachepartition" type="XML" />
+      <mapping ext="approvalprocess" type="XML" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="es" approved="true" type="ActionScript" />
+      <removed_mapping ext="es" approved="true" type="ActionScript" />
+      <removed_mapping ext="es" approved="true" type="ActionScript" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="tab" approved="true" type="XML" />
+      <removed_mapping ext="tab" approved="true" type="XML" />
       <removed_mapping ext="tab" approved="true" type="XML" />
       <mapping ext=".model" type="Tabnine project model file" />
       <mapping ext=".tabnine" type="Tabnine project model file" />
       <mapping ext=".tabnine.model" type="Tabnine project model file" />
+      <mapping ext="lgt" type="Logtalk resource" />
       <mapping ext="model" type="Tabnine project model file" />
+      <mapping ext="pl" type="Prolog resource" />
       <mapping ext="tabnine" type="Tabnine project model file" />
     </extensionMap>
   </component>
