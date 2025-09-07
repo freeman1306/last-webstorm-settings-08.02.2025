@@ -1,0 +1,241 @@
+<templateSet group="React Buddy">
+  <template id="cr" name="cr" value="{ $1$ &amp;&amp; $SELECTION$ }" description="Generates a template for conditional jsx rendering using short circuiting" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template id="crt" name="crt" value="{ $1$ &#10; ? $SELECTION$ &#10; : $2$ }" description="Generates a template for conditional jsx rendering using ternary operator" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="&quot;null&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template id="ctx" name="ctx" value="$IMPORT_CREATE_CONTEXT$&#10;$IMPORT_USE_CONTEXT$&#10;$IMPORT_FC$&#10;$IMPORT_REACT_NODE$&#10;const $NAME$Context = createContext({$END$});&#10;export const use$NAME$ = () =&gt; useContext($NAME$Context);&#10;export const $NAME$Provider: FC&lt;{ children?: ReactNode | undefined }&gt; = props =&gt; {&#10;&#9;return (&#10;&#9;&#9;&lt;$NAME$Context.Provider value={{}}&gt;&#10;&#9;&#9;&#9;{props.children}&#10;&#9;&#9;&lt;/$NAME$Context.Provider&gt;&#10;&#9;);&#10;};" description="Create React context provider" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORT_CREATE_CONTEXT" expression="resolveImport(createContext, react)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_USE_CONTEXT" expression="resolveImport(useContext, react)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_FC" expression="resolveImport(FC, react)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_REACT_NODE" expression="resolveImport(ReactNode, react)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_REACT_TSX_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rfc" name="rfc" value="export const $NAME$ = () =&gt; {&#10;&#9;return (&#10;&#9;&#9;&lt;&gt;$END$&lt;/&gt;&#10;&#9;)&#10;}" description="Create arrow function React component" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rfdc" name="rfdc" value="export function $NAME$() {&#10;&#9;return (&#10;&#9;&#9;&lt;&gt;$END$&lt;/&gt;&#10;&#9;)&#10;}" description="Create function declaration React component" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rcbc" name="rcbc" value="$IMPORT_COMPONENT$&#10;export class $NAME$ extends Component {&#10;&#9;render() {&#10;&#9;&#9;return (&#10;&#9;&#9;&#9;&lt;&gt;$END$&lt;/&gt;&#10;&#9;&#9;)&#10;&#9;}&#10;}" description="Create class-based React component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORT_COMPONENT" expression="resolveImport(Component, react)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_REACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rfcp" name="rfcp" value="$IMPORT_FRAGMENT$&#10;$IMPORT_H$&#10;export const $NAME$ = () =&gt; {&#10;&#9;return (&#10;&#9;&#9;&lt;Fragment&gt;$END$&lt;/Fragment&gt;&#10;&#9;)&#10;}" description="Create arrow function Preact component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORT_FRAGMENT" expression="resolveImport(Fragment, preact)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_H" expression="resolveImport(h, preact)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_PREACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rfdcp" name="rfdcp" value="$IMPORT_FRAGMENT$&#10;$IMPORT_H$&#10;export function $NAME$() {&#10;&#9;return (&#10;&#9;&#9;&lt;Fragment&gt;$END$&lt;/Fragment&gt;&#10;&#9;)&#10;}" description="Create function declaration Preact component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORT_FRAGMENT" expression="resolveImport(Fragment, preact)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_H" expression="resolveImport(h, preact)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_PREACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="rccp" name="rccp" value="$IMPORT_FRAGMENT$&#10;$IMPORT_H$&#10;$IMPORT_COMPONENT$&#10;export class $NAME$ extends Component {&#10;&#9;render() {&#10;&#9;&#9;return (&#10;&#9;&#9;&#9;&lt;Fragment&gt;$END$&lt;/Fragment&gt;&#10;&#9;&#9;)&#10;&#9;}&#10;}" description="Create class-based Preact component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORT_COMPONENT" expression="resolveImport(Component, preact)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_FRAGMENT" expression="resolveImport(Fragment, preact)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_H" expression="resolveImport(h, preact)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_PREACT_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="usest" name="usest" value="const [$STATE$, set$STATE_SET$] = useState($END$);" description="const [state, setState] = useState()" toReformat="true" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATE_SET" expression="capitalize(STATE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usee" name="usee" value="useEffect(() =&gt; {&#10;&#9;$END$&#10;}, []);" description="useEffect(() =&gt; {}, [])" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usec" name="usec" value="const $CONTEXT$ = useContext($END$);" description="const value = useContext()" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="userd" name="userd" value="const [$STATE$, $DISPATCH$] = useReducer();" description="const [state, dispatch] = useReducer()" toReformat="true" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DISPATCH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usecb" name="usecb" value="const $CALLBACK$ = useCallback(() =&gt; {&#10;&#9;$END$&#10;}, []);" description="const memoizedCallback = useCallback(() =&gt; {}, [])" toReformat="true" toShortenFQNames="true">
+    <variable name="CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usem" name="usem" value="const $MEMO$ = useMemo(() =&gt; {&#10;&#9;$END$&#10;}, []);" description="const memoizedValue = useMemo(() =&gt; {}, [])" toReformat="true" toShortenFQNames="true">
+    <variable name="MEMO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="user" name="user" value="const $REF$ = useRef($END$);" description="const refContainer = useRef()" toReformat="true" toShortenFQNames="true">
+    <variable name="REF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="useih" name="useih" value="useImperativeHandle($END$,);" description="useImperativeHandle(, )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usele" name="usele" value="useLayoutEffect(() =&gt; {&#10;&#9;$END$&#10;}, []);" description="useLayoutEffect(() =&gt; {}, [])" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usedv" name="usedv" value="useDebugValue($END$);" description="useDebugValue()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usei" name="usei" value="const $INTL$ = useIntl($END$);" description="const intl = useIntl()" toReformat="true" toShortenFQNames="true">
+    <variable name="INTL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_INTL_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="useid" name="useid" value="const $ID$ = useId($END$);" description="const id = useId()" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="uset" name="uset" value="const [$IS_PENDING$, $START_TRANSITION$] = useTransition($END$);" description="const [isPending, startTransition] = useTransition()" toReformat="true" toShortenFQNames="true">
+    <variable name="IS_PENDING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="START_TRANSITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usedfv" name="usedfv" value="const $VALUE$ = useDeferredValue($END$);" description="const deferredValue = useDeferredValue()" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_PREACT_HOOK_CONTEXT" value="true" />
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="useActionState" name="useActionState" value="const [error, $SUBMIT_ACTION$, isPending] = useActionState(async (previousState, formData) =&gt; {$END$}, null);" description="const [error, submitAction, isPending] = useActionState()" toReformat="true" toShortenFQNames="true">
+    <variable name="SUBMIT_ACTION" expression="" defaultValue="submitFormAction" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usetl" name="usetl" value="const $TRANSLATE$ = useTranslate($END$);" description="const translate = useTranslate()" toReformat="true" toShortenFQNames="true">
+    <variable name="TRANSLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="userc" name="userc" value="const $RECORD$ = useRecordContext($END$);" description="const record = useRecordContext()" toReformat="true" toShortenFQNames="true">
+    <variable name="RECORD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usen" name="usen" value="const $NOTIFY$ = useNotify($END$);" description="const notify = useNotify()" toReformat="true" toShortenFQNames="true">
+    <variable name="NOTIFY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="userct" name="userct" value="const $REDIRECT$ = useRedirect($END$);" description="const redirect = useRedirect()" toReformat="true" toShortenFQNames="true">
+    <variable name="REDIRECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usels" name="usels" value="const [$LOCALE$, set$SET_LOCALE$] = useLocaleState($END$);" description="const [locale, setLocale] = useLocaleState()" toReformat="true" toShortenFQNames="true">
+    <variable name="LOCALE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SET_LOCALE" expression="capitalize(LOCALE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="uselc" name="uselc" value="const {$DATA$, $IS_LOADING$} = useListContext($END$);" description="const {data, isLoading} = useListContext()" toReformat="true" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IS_LOADING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="usegri" name="usegri" value="const $RECORD_ID$ = useGetRecordId($END$);" description="const recordId = useGetRecordId()" toReformat="true" toShortenFQNames="true">
+    <variable name="RECORD_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REACT_ADMIN_HOOK_CONTEXT" value="true" />
+    </context>
+  </template>
+  <template id="story6" name="story6" value="$IMPORT_COMPONENT_META$&#10;$IMPORT_COMPONENT_STORY$&#10;export default {&#10;&#9;title: &quot;Example/$NAME$&quot;,&#10;&#9;component: $COMPONENT$&#10;} as ComponentMeta&lt;typeof $NAME$&gt;;&#10;const Template: ComponentStory&lt;typeof $NAME$&gt; = (args) =&gt; (&#10;&#9;&lt;$NAME$ {...args} /&gt;&#10;);&#10;export const $NAME$Story = Template.bind({});&#10;$NAME$Story.storyName = &quot;Default&quot;;&#10;$NAME$Story.args = {};" description="Storybook v6 story" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="capitalize(COMPONENT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_COMPONENT_META" expression="resolveImport(&quot;ComponentMeta&quot;, &quot;@storybook/react&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_COMPONENT_STORY" expression="resolveImport(&quot;ComponentStory&quot;, &quot;@storybook/react&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_STORYBOOK_TSX_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="story7" name="story7" value="$IMPORT_META$&#10;$IMPORT_STORY_OBJ$&#10;const meta = {&#10;&#9;title: &quot;Example/$NAME$&quot;,&#10;&#9;component: $COMPONENT$&#10;} satisfies Meta&lt;typeof $NAME$&gt;;&#10;&#10;export default meta;&#10;&#10;type Story = StoryObj&lt;typeof meta&gt;;&#10;&#10;export const $NAME$Story: Story = {&#10;&#9;name: &quot;Default&quot;,&#10;&#9;args: {}&#10;};" description="Storybook v7 story" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="capitalize(COMPONENT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_META" expression="resolveImport(&quot;Meta&quot;, &quot;@storybook/react&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="IMPORT_STORY_OBJ" expression="resolveImport(&quot;StoryObj&quot;, &quot;@storybook/react&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="RCB_STORYBOOK_TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template id="reducer" name="reducer" value="const initialState: $STATE_NAME$ = {$END$}&#10;&#10;enum $STATE_NAME$ActionTypes {&#10;  $ACTION_NAME$ = '$ACTION_NAME$'&#10;  //TODO extend action types&#10;}&#10;&#10;interface $STATE_NAME$Action {&#10;  type: $STATE_NAME$ActionTypes&#10;  //TODO extend action with payload&#10;}&#10;&#10;export const $REDUCER_STATE_NAME$Reducer = (state: $STATE_NAME$ = initialState, action: $STATE_NAME$Action): $STATE_NAME$ =&gt; {&#10;  switch (action.type) {&#10;    case $STATE_NAME$ActionTypes.$ACTION_NAME$:&#10;      return {...state}&#10;    default:&#10;      return state&#10;  }&#10;}" description="Redux reducer" toReformat="true" toShortenFQNames="true">
+    <variable name="STATE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REDUCER_STATE_NAME" expression="decapitalize(STATE_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="ACTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RCB_REDUX_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
